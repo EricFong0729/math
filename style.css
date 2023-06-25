@@ -1,0 +1,23 @@
+button{
+    margin: 10px;
+}
+
+#HanlinButton:hover{
+    transform: scale(1.25);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+#LongtengButton:hover{
+    transform: scale(1.25);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+#NaniButton:hover{
+    transform: scale(1.25);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+
+#SanminButton:hover{
+    transform: scale(1.25);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}

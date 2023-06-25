@@ -1,0 +1,777 @@
+<!DOCTYPE html><!---->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>高中數學資訊網</title>
+        <style>
+            button{
+                margin: 10px;
+            }
+
+            #HanlinButton:hover{
+                transform: scale(1.25);
+                box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+            }
+
+            #LongtengButton:hover{
+                transform: scale(1.25);
+                box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+            }
+
+            #NaniButton:hover{
+                transform: scale(1.25);
+                box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+            }
+
+            #SanminButton:hover{
+                transform: scale(1.25);
+                box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+            }
+        </style>
+        <!--<link rel="stylesheet" href="style.css">-->
+    </head>
+    <body>
+        <h1><center>高中數學</center></h1>
+        <button id="HanlinButton">翰林版</button>
+        <button id="LongtengButton">龍騰版</button>
+        <button id="NaniButton">南一版</button>
+        <button id="SanminButton">三民版</button>
+        <div id="Hanlin">
+            <p><strong>高一上</strong></p>
+            <ol>
+                <li>數與式
+                    <ol>
+                        <li><a href="">數與數線</a></li>
+                        <li><a href="">式的運算</a></li>
+                    </ol>
+                </li>
+                <li>指數與對數
+                    <ol>
+                        <li><a href="">指數</a></li>
+                        <li><a href="">常用對數</a></li>
+                    </ol>
+                </li>
+                <li>多項式函數
+                    <ol>
+                        <li><a href="">多項式的運算與應用</a></li>
+                        <li><a href="">簡單多項式函數及其圖形</a></li>
+                        <li><a href="">多項式函數的圖形與多項式不等式</a></li>
+                    </ol>
+                </li>
+                <li>直線與圓
+                    <ol>
+                        <li><a href="">直線方程式及其圖形</a></li>
+                        <li><a href="">線性規劃</a></li>
+                        <li><a href="">圓與直線的關係</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高一下</strong></p>
+            <ol>
+                <li>三角比
+                    <ol>
+                        <li><a href="">直角三角形與邊角關係</a></li>
+                        <li><a href="">廣義角與極座標</a></li>
+                        <li><a href="">面積公式與正餘弦定理</a></li>
+                    </ol>
+                </li>
+                <li>數列與級數
+                    <ol>
+                        <li><a href="">數列</a></li>
+                        <li><a href="">級數</a></li>
+                    </ol>
+                </li>
+                <li>數據分析
+                    <ol>
+                        <li><a href="">一維數據分析</a></li>
+                        <li><a href="">二維數據分析</a></li>
+                    </ol>
+                </li>
+                <li>排列組合與機率
+                    <ol>
+                        <li><a href="">計數原理</a></li>
+                        <li><a href="">排列</a></li>
+                        <li><a href="">組合</a></li>
+                        <li><a href="">機率</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高二上(A冊)</strong></p>
+            <ol>
+                <li>三角函數
+                    <ol>
+                        <li><a href="">常用的三角比公式</a></li>
+                        <li><a href="">弧度量</a></li>
+                        <li><a href="">三角函數的圖形</a></li>
+                        <li><a href="">三角的和角與差角公式</a></li>
+                    </ol>
+                </li>
+                <li>指數與對數函數
+                    <ol>
+                        <li><a href="">指數函數</a></li>
+                        <li><a href="">對數與對數率</a></li>
+                        <li><a href="">對數函數</a></li>
+                    </ol>
+                </li>
+                <li>平面向量
+                    <ol>
+                        <li><a href="">平面向量的運算</a></li>
+                        <li><a href="">平面向量的內積</a></li>
+                        <li><a href="">平面向量的應用</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高二上(B冊)</strong></p>
+            <ol>
+                <li>三角函數
+                    <ol>
+                        <li><a href="">弧度量</a></li>
+                        <li><a href="">週期性數學模型</a></li>
+                    </ol>
+                </li>
+                <li>指數與對數函數
+                    <ol>
+                        <li><a href="">指數函數與圖形</a></li>
+                        <li><a href="">對數</a></li>
+                        <li><a href="">對數函數及圖形</a></li>
+                        <li><a href="">指數與對數函數的應用</a></li>
+                    </ol>
+                </li>
+                <li>平面向量
+                    <ol>
+                        <li><a href="">平面向量的運算</a></li>
+                        <li><a href="">平面向量的內積</a></li>
+                        <li><a href="">平面上的比例</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高二下(A冊)</strong></p>
+            <ol>
+                <li>空間向量
+                    <ol>
+                        <li><a href="">空間概念</a></li>
+                        <li><a href="">空間向量的坐標表示法</a></li>
+                        <li><a href="">空間向量的內積</a></li>
+                        <li><a href="">外積、體積與行列式</a></li>
+                    </ol>
+                </li>
+                <li>空間的平面與直線
+                    <ol>
+                        <li><a href="">平面方程式</a></li>
+                        <li><a href="">空間直線方程式</a></li>
+                    </ol>
+                </li>
+                <li>條件機率與獨立事件
+                    <ol>
+                        <li><a href="">條件機率與獨立事件</a></li>
+                        <li><a href="">貝氏定理</a></li>
+                    </ol>
+                </li>
+                <li>矩陣
+                    <ol>
+                        <li><a href="">高斯消去法與矩陣</a></li>
+                        <li><a href="">矩陣的運算</a></li>
+                        <li><a href="">矩陣的應用</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高二下(B冊)</strong></p>
+            <ol>
+                <li>空間概念與空間坐標系
+                    <ol>
+                        <li><a href="">空間概念</a></li>
+                        <li><a href="">空間坐標系</a></li>
+                    </ol>
+                </li>
+                <li>圓錐曲線的認識與應用
+                    <ol>
+                        <li><a href="">學習活動</a></li>
+                    </ol>
+                </li>
+                <li>條件機率與獨立事件
+                    <ol>
+                        <li><a href="">條件機率與獨立事件</a></li>
+                        <li><a href="">貝氏定理</a></li>
+                    </ol>
+                </li>
+                <li>矩陣
+                    <ol>
+                        <li><a href="">矩陣的定義與運算</a></li>
+                        <li><a href="">乘法反方陣與矩陣的應用</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高三(數甲)</strong></p>
+            <ol>
+                <li>極限與函數
+                    <ol>
+                        <li><a href="">數列及其極限</a></li>
+                        <li><a href="">無窮等比級數</a></li>
+                        <li><a href="">函數的概念</a></li>
+                        <li><a href="">函數的極限</a></li>
+                    </ol>
+                </li>
+                <li>微分
+                    <ol>
+                        <li><a href="">微分與切線</a></li>
+                        <li><a href="">導函數與導函數圖形</a></li>
+                    </ol>
+                </li>
+                <li>積分
+                    <ol>
+                        <li><a href="">積分的意義</a></li>
+                        <li><a href="">積分的應用</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高三(數乙)</strong></p>
+            <ol>
+                <li>極限與函數
+                    <ol>
+                        <li><a href="">無窮等比級數</a></li>
+                        <li><a href="">函數的概念</a></li>
+                        <li><a href="">函數的極限</a></li>
+                    </ol>
+                </li>
+                <li>微分
+                    <ol>
+                        <li><a href="">微分與切線</a></li>
+                        <li><a href="">導函數與導函數圖形</a></li>
+                    </ol>
+                </li>
+                <li>積分
+                    <ol>
+                        <li><a href="">積分</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        <div id="Longteng">
+            <p><strong>高一上</strong></p>
+            <ol>
+                <li><a href="">實數</a></li>
+                <li><a href="">絕對值</a></li>
+                <li><a href="">指數</a></li>
+                <li><a href="">常用對數</a></li>
+                <li><a href="">直線方程式</a></li>
+                <li><a href="">圓方程式</a></li>
+                <li><a href="">圓與直線的關係</a></li>
+                <li><a href="">多項式的除法原理</a></li>
+                <li><a href="">一次與二次函數</a></li>
+                <li><a href="">三次函數的圖形特徵</a></li>
+                <li><a href="">多項式不等式</a></li>
+            </ol>
+            <p><strong>高一下</strong></p>
+            <ol>
+                <li><a href="">數列與遞迴關係</a></li>
+                <li><a href="">級數</a></li>
+                <li><a href="">計數原理</a></li>
+                <li><a href="">排列</a></li>
+                <li><a href="">組合</a></li>
+                <li><a href="">古典機率</a></li>
+                <li><a href="">數學期望值</a></li>
+                <li><a href="">一維數列分析</a></li>
+                <li><a href="">二維數列分析</a></li>
+                <li><a href="">直角三角形的三角比</a></li>
+                <li><a href="">廣義角三角比與極座標</a></li>
+                <li><a href="">三角比的性質</a></li>
+            </ol>
+            <p><strong>高二上(A冊)</strong></p>
+            <ol>
+                <li><a href="">弧度量</a></li>
+                <li><a href="">三角函數的圖形</a></li>
+                <li><a href="">三角的和差公式</a></li>
+                <li><a href="">正餘弦疊合</a></li>
+                <li><a href="">指數函數</a></li>
+                <li><a href="">對數與對數律</a></li>
+                <li><a href="">對數函數</a></li>
+                <li><a href="">平面向量</a></li>
+                <li><a href="">平面向量的運算</a></li>
+                <li><a href="">二元一次聯立方程式</a></li>
+            </ol>
+            <p><strong>高二上(B冊)</strong></p>
+            <ol>
+                <li><a href="">弧度量</a></li>
+                <li><a href="">週期性數學模型</a></li>
+                <li><a href="">指數函數</a></li>
+                <li><a href="">對數</a></li>
+                <li><a href="">對數函數</a></li>
+                <li><a href="">平面向量</a></li>
+                <li><a href="">平面向量的運算</a></li>
+            </ol>
+            <p><strong>高二下(A冊)</strong></p>
+            <ol>
+                <li><a href="">空間概念</a></li>
+                <li><a href="">空間向量的坐標表示法</a></li>
+                <li><a href="">空間向量的運算</a></li>
+                <li><a href="">三階行列式</a></li>
+                <li><a href="">空間中的平面</a></li>
+                <li><a href="">空間中的直線</a></li>
+                <li><a href="">條件機率與貝氏定理</a></li>
+                <li><a href="">三元一次聯立方程式</a></li>
+                <li><a href="">矩陣的運算</a></li>
+                <li><a href="">矩陣的應用</a></li>
+            </ol>
+            <p><strong>高二下(B冊)</strong></p>
+            <ol>
+                <li><a href="">空間概念</a></li>
+                <li><a href="">空間坐標系</a></li>
+                <li><a href="">平面上的比例</a></li>
+                <li><a href="">條件機率</a></li>
+                <li><a href="">貝氏定理</a></li>
+                <li><a href="">矩陣的運算</a></li>
+                <li><a href="">矩陣的應用</a></li>
+                <li><a href="">圓錐曲線</a></li>
+            </ol>
+            <p><strong>高三(數甲)</strong></p>
+            <ol>
+                <li><a href="">數列的極限與無窮等比級數</a></li>
+                <li><a href="">函數與函數的極限</a></li>
+                <li><a href="">微分</a></li>
+                <li><a href="">函數性質的判定</a></li>
+                <li><a href="">積分</a></li>
+                <li><a href="">積分的運用</a></li>
+            </ol>
+            <p><strong>高三(數乙)</strong></p>
+            <ol>
+                <li><a href="">數列的極限與無窮等比級數</a></li>
+                <li><a href="">函數與函數的極限</a></li>
+                <li><a href="">微分</a></li>
+                <li><a href="">函數性質的判定</a></li>
+                <li><a href="">積分</a></li>
+                <li><a href="">積分的運用</a></li>
+            </ol>
+        </div>
+        <div id="Nani">
+            <p><strong>高一上</strong></p>
+            <ol>
+                <li>實數與指對數
+                    <ol>
+                        <li><a href="">實數</a></li>
+                        <li><a href="">絕對值</a></li>
+                        <li><a href="">指數</a></li>
+                        <li><a href="">常用對數</a></li>
+                    </ol>
+                </li>
+                <li>直線與圓
+                    <ol>
+                        <li><a href="">直線方程式及其圖形</a></li>
+                        <li><a href="">直線方程式的運用</a></li>
+                        <li><a href="">圓方程式</a></li>
+                        <li><a href="">圓與直線的關係</a></li>
+                    </ol>
+                </li>
+                <li>多項式函數
+                    <ol>
+                        <li><a href="">多項式的運算與應用</a></li>
+                        <li><a href="">多項式函數及其圖形</a></li>
+                        <li><a href="">多項式不等式</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高一下</strong></p>
+            <ol>
+                <li>數列級數
+                    <ol>
+                        <li><a href="">數列與數學歸納法</a></li>
+                        <li><a href="">級數</a></li>
+                    </ol>
+                </li>
+                <li>排列組合與機率
+                    <ol>
+                        <li><a href="">基本計數原理</a></li>
+                        <li><a href="">排列</a></li>
+                        <li><a href="">組合</a></li>
+                        <li><a href="">機率</a></li>
+                    </ol>
+                </li>
+                <li>數據分析
+                    <ol>
+                        <li><a href="">一維數據分析</a></li>
+                        <li><a href="">二維數據分析</a></li>
+                    </ol>
+                </li>
+                <li>三角比
+                    <ol>
+                        <li><a href="">直角三角形的三角比</a></li>
+                        <li><a href="">廣義角的三角比</a></li>
+                        <li><a href="">三角比的性質</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高二上(A冊)</strong></p>
+            <ol>
+                <li>三角函數
+                    <ol>
+                        <li><a href="">三角函數的圖形</a></li>
+                        <li><a href="">三角的和角與差角公式</a></li>
+                    </ol>
+                </li>
+                <li>指數與對數函數
+                    <ol>
+                        <li><a href="">指數函數</a></li>
+                        <li><a href="">對數與對數率</a></li>
+                        <li><a href="">對數函數</a></li>
+                    </ol>
+                </li>
+                <li>平面向量
+                    <ol>
+                        <li><a href="">平面向量的運算</a></li>
+                        <li><a href="">平面向量的內積</a></li>
+                        <li><a href="">平面向量的應用</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高二上(B冊)</strong></p>
+            <ol>
+                <li>三角函數
+                    <ol>
+                        <li><a href="">弧度量</a></li>
+                        <li><a href="">週期性數學模型</a></li>
+                    </ol>
+                </li>
+                <li>指數與對數函數
+                    <ol>
+                        <li><a href="">對數</a></li>
+                        <li><a href="">指數與對數函數</a></li>
+                    </ol>
+                </li>
+                <li>平面向量
+                    <ol>
+                        <li><a href="">平面向量的運算</a></li>
+                        <li><a href="">平面向量的內積</a></li>
+                        <li><a href="">平面幾何在生活上的情境</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高二下(A冊)</strong></p>
+            <ol>
+                <li>空間向量
+                    <ol>
+                        <li><a href="">空間概念</a></li>
+                        <li><a href="">空間向量的坐標表示法</a></li>
+                        <li><a href="">空間向量的內積</a></li>
+                        <li><a href="">外積、體積與行列式</a></li>
+                    </ol>
+                </li>
+                <li>空間的平面與直線
+                    <ol>
+                        <li><a href="">平面方程式</a></li>
+                        <li><a href="">空間中的直線</a></li>
+                    </ol>
+                </li>
+                <li>條件機率與獨立事件
+                    <ol>
+                        <li><a href="">條件機率與獨立事件</a></li>
+                        <li><a href="">貝氏定理與主觀、客觀機率</a></li>
+                    </ol>
+                </li>
+                <li>矩陣
+                    <ol>
+                        <li><a href="">三元一次方程組</a></li>
+                        <li><a href="">矩陣的運算</a></li>
+                        <li><a href="">矩陣的應用</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高二下(B冊)</strong></p>
+            <ol>
+                <li>空間概念與空間坐標系
+                    <ol>
+                        <li><a href="">空間概念</a></li>
+                        <li><a href="">空間坐標系</a></li>
+                    </ol>
+                </li>
+                <li>矩陣與資料表格
+                    <ol>
+                        <li><a href="">矩陣的加減法與係數積</a></li>
+                        <li><a href="">矩陣的乘法與反方陣</a></li>
+                    </ol>
+                </li>
+                <li>條件機率與獨立事件
+                    <ol>
+                        <li><a href="">條件機率與獨立事件</a></li>
+                        <li><a href="">貝氏定理與主觀、客觀機率</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高三(數甲)</strong></p>
+            <ol>
+                <li>分布與統計
+                    <ol>
+                        <li><a href="">隨機變數</a></li>
+                        <li><a href="">二項分布與幾何分布</a></li>
+                    </ol>
+                </li>
+                <li>複數平面
+                    <ol>
+                        <li><a href="">複數與多項式方程式</a></li>
+                        <li><a href="">複數的幾何意義</a></li>
+                    </ol>
+                </li>
+                <li>二次曲線
+                    <ol>
+                        <li><a href="">拋物線</a></li>
+                        <li><a href="">橢圓</a></li>
+                        <li><a href="">雙曲線</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高三(數乙)</strong></p>
+            <ol>
+                <li>分布與統計
+                    <ol>
+                        <li><a href="">隨機變數</a></li>
+                        <li><a href="">二項分布</a></li>
+                    </ol>
+                </li>
+                <li>複數平面
+                    <ol>
+                        <li><a href="">複數與多項式方程式</a></li>
+                        <li><a href="">複數的幾何意義</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        <div id="Sanmin">
+            <p><strong>高一上</strong></p>
+            <ol>
+                <li>數與式
+                    <ol>
+                        <li><a href="">實數</a></li>
+                        <li><a href="">絕對值</a></li>
+                        <li><a href="">式的運算</a></li>
+                        <li><a href="">指數與對數</a></li>
+                    </ol>
+                </li>
+                <li>直線與圓
+                    <ol>
+                        <li><a href="">直線方程式</a></li>
+                        <li><a href="">二元一次方程式與不等式</a></li>
+                        <li><a href="">圓與直線的關係</a></li>
+                    </ol>
+                </li>
+                <li>多項式函數
+                    <ol>
+                        <li><a href="">多項式及其運算</a></li>
+                        <li><a href="">簡單多項式函數及其圖形</a></li>
+                        <li><a href="">多項式不等式</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高一下</strong></p>
+            <ol>
+                <li>三角比值及其應用
+                    <ol>
+                        <li><a href="">廣義角與極座標</a></li>
+                        <li><a href="">廣義角的三角比性質</a></li>
+                        <li><a href="">正弦定理與餘弦定理</a></li>
+                    </ol>
+                </li>
+                <li>數列與級數
+                    <ol>
+                        <li><a href="">數列</a></li>
+                        <li><a href="">級數</a></li>
+                    </ol>
+                </li>
+                <li>排列組合與機率
+                    <ol>
+                        <li><a href="">集合與簡單邏輯</a></li>
+                        <li><a href="">計數法則與排列</a></li>
+                        <li><a href="">組合與二項式定理</a></li>
+                        <li><a href="">樣本空間、事件與機率</a></li>
+                        <li><a href="">機率的性質與期望值</a></li>
+                    </ol>
+                </li>
+                <li>數據分析
+                    <ol>
+                        <li><a href="">一維數據分析</a></li>
+                        <li><a href="">二維數據分析</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高二上(A冊)</strong></p>
+            <ol>
+                <li>指數函數與對數函數
+                    <ol>
+                        <li><a href="">指數函數</a></li>
+                        <li><a href="">對數率</a></li>
+                        <li><a href="">對數函數</a></li>
+                    </ol>
+                </li>
+                <li>三角函數
+                    <ol>
+                        <li><a href="">弧度量</a></li>
+                        <li><a href="">三角函數的圖形及其應用</a></li>
+                        <li><a href="">三角的和角與差角公式</a></li>
+                        <li><a href="">正餘弦疊合</a></li>
+                    </ol>
+                </li>
+                <li>平面向量
+                    <ol>
+                        <li><a href="">平面向量的表示法</a></li>
+                        <li><a href="">平面向量的內積</a></li>
+                        <li><a href="">面積與二階行列式</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高二上(B冊)</strong></p>
+            <ol>
+                <li>按比例成長模型
+                    <ol>
+                        <li><a href="">指數函數 </a></li>
+                        <li><a href="">對數函數</a></li>
+                    </ol>
+                </li>
+                <li>三角函數
+                    <ol>
+                        <li><a href="">弧度量</a></li>
+                        <li><a href="">三角函數及週期現象</a></li>
+                    </ol>
+                </li>
+                <li>平面向量
+                    <ol>
+                        <li><a href="">平面向量的表示法</a></li>
+                        <li><a href="">平面向量的內積</a></li>
+                        <li><a href="">平面上的比例 </a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高二下(A冊)</strong></p>
+            <ol>
+                <li>空間向量
+                    <ol>
+                        <li><a href="">空間概念</a></li>
+                        <li><a href="">空間向量的坐標表示法</a></li>
+                        <li><a href="">空間向量的內積</a></li>
+                        <li><a href="">外積與行列式</a></li>
+                    </ol>
+                </li>
+                <li>空間中的直線與平面
+                    <ol>
+                        <li><a href="">空間中的平面方程式</a></li>
+                        <li><a href="">空間中的直線方程式</a></li>
+                        <li><a href="">三元一次方程組</a></li>
+                    </ol>
+                </li>
+                <li>矩陣
+                    <ol>
+                        <li><a href="">線性方程組與矩陣</a></li>
+                        <li><a href="">矩陣的運算</a></li>
+                        <li><a href="">矩陣的應用</a></li>
+                    </ol>
+                </li>
+                <li>條件機率與貝氏定理
+                    <ol>
+                        <li><a href="">條件機率與獨立事件</a></li>
+                        <li><a href="">貝氏定理</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高二下(B冊)</strong></p>
+            <ol>
+                <li>空間概念與空間坐標系
+                    <ol>
+                        <li><a href="">空間概念</a></li>
+                        <li><a href="">空間坐標</a></li>
+                        <li><a href="">球面與圓錐截痕</a></li>
+                    </ol>
+                </li>
+                <li>矩陣
+                    <ol>
+                        <li><a href="">矩陣的定義與基本運算</a></li>
+                        <li><a href="">矩陣的乘法運算與反矩陣</a></li>
+                    </ol>
+                </li>
+                <li>條件機率與貝氏定理
+                    <ol>
+                        <li><a href="">條件機率與獨立事件</a></li>
+                        <li><a href="">貝氏定理</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高三(數甲)</strong></p>
+            <ol>
+                <li>極限與函數
+                    <ol>
+                        <li><a href="">數列及其極限</a></li>
+                        <li><a href="">無窮等比級數</a></li>
+                        <li><a href="">函數與函數圖形的性質</a></li>
+                        <li><a href="">函數的極限</a></li>
+                    </ol>
+                </li>
+                <li>函數的微分
+                    <ol>
+                        <li><a href="">微分</a></li>
+                        <li><a href="">導函數與函數的圖形</a></li>
+                    </ol>
+                </li>
+                <li>多項式函數的積分
+                    <ol>
+                        <li><a href="">黎曼和</a></li>
+                        <li><a href="">積分</a></li>
+                        <li><a href="">積分的應用</a></li>
+                    </ol>
+                </li>
+            </ol>
+            <p><strong>高三(數乙)</strong></p>
+            <ol>
+                <li>極限與函數
+                    <ol>
+                        <li><a href="">數列及其極限</a></li>
+                        <li><a href="">函數與函數圖形的性質</a></li>
+                        <li><a href="">函數的極限</a></li>
+                    </ol>
+                </li>
+                <li>函數的微分
+                    <ol>
+                        <li><a href="">微分</a></li>
+                        <li><a href="">導函數與函數的圖形</a></li>
+                    </ol>
+                </li>
+                <li>多項式函數的積分
+                    <ol>
+                        <li><a href="">積分</a></li>
+                        <li><a href="">積分的應用</a></li>
+                    </ol>
+                </li>
+            </ol>
+        </div>
+
+        <script>
+            function start() {
+                document.getElementById("Hanlin").hidden = true;
+                document.getElementById("Longteng").hidden = true;
+                document.getElementById("Nani").hidden = true;
+                document.getElementById("Sanmin").hidden = true;
+        
+                var button1 = document.getElementById("HanlinButton");
+                var button2 = document.getElementById("LongtengButton");
+                var button3 = document.getElementById("NaniButton");
+                var button4 = document.getElementById("SanminButton");
+                var HanlinDiv = document.getElementById("Hanlin");
+                var LongtengDiv = document.getElementById("Longteng");
+                var NaniDiv = document.getElementById("Nani");
+                var SanminDiv = document.getElementById("Sanmin");
+        
+                button1.addEventListener("click", function() { show(HanlinDiv); }, false);
+                button2.addEventListener("click", function() { show(LongtengDiv); }, false);
+                button3.addEventListener("click", function() { show(NaniDiv); }, false);
+                button4.addEventListener("click", function() { show(SanminDiv); }, false);
+            }
+        
+            function show(element) {
+                if (element.hidden) {
+                    element.hidden = false;
+                } else {
+                    element.hidden = true;
+                }
+            }
+        </script>
+        <script>
+            start();
+        </script>
+        <!--<script src="//unpkg.com/jquery"></script>-->
+        <!--<script src="main.js"></script>-->
+    </body>
+</html>
